@@ -1,30 +1,170 @@
 ---
-import Layout from '../layouts/Layout.astro';
 import Markdown from '../components/Markdown.astro';
 
 const explainer = `
-If you want to use a font without installing it on your device, follow these simple steps:
+## What is Dafont.style?
 
-1. **Go to the Website:** Open your browser and visit [www.dafont.style](https://www.dafont.style).
-2. **Find Your Font:** Browse the website and select the font you like.
-3. **Open the Font Page:** Click on the font to open its page.
-4. **Preview Your Text:** In the preview section, type your custom text. Adjust size, style, and other settings.
-5. **Download the Image:** Once your text looks perfect, download the image. You can use it anywhere—on social media, presentations, or graphics—without installing the font.
+Dafont.style is a highly popular font platform that allows you to use thousands of fonts without installing them on your device. It has been steadily growing for over three years and now hosts **over 10,000 fonts** in a variety of styles: modern, handwritten, decorative, retro, and more. Most of these fonts are **free for personal use**, making it perfect for students, hobbyists, content creators, and designers.
 
-This is why **Dafont.style** is becoming so popular—it lets you use fonts easily without the hassle of installation.
-`;
 ---
 
-<Layout title="Lecture: Using Fonts Without Installation">
-    <h1 class="mb-10">Lecture: Using Fonts Without Installation</h1>
-    
-    <!-- Lecture Image -->
-    <img 
-        src="https://scontent-sin6-2.xx.fbcdn.net/v/t39.30808-6/616797105_122191446068378169_4980191989566043097_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=xo9rNN2C-dIQ7kNvwFAX0Eu&_nc_oc=AdkKUk5ev7W7m6mE7JZyp_U9Jbgaxm45fPwOpyamkx3ECB7zt90sbth-HMtpSRAQrFutgHFhuk8BdsfSpFQwWSm6&_nc_zt=23&_nc_ht=scontent-sin6-2.xx&_nc_gid=znKGTUVoXA4HstbWcyjVbA&oh=00_Afo48s_JxcUesj_6Vy9NFc39m1J1fnvhm57yc0Iw1s01Lg&oe=696C78A3" 
-        alt="Fonts Lecture" 
-        class="mb-10 rounded-lg shadow-lg"
-    />
+## Why Use Dafont.style Without Installing Fonts?
 
-    <!-- Lecture Steps -->
-    <Markdown content={explainer} class="mb-10 text-lg" />
-</Layout>
+1. **Ease of Use:** You don’t need to install anything on your computer or phone.
+2. **Instant Preview:** Type your custom text and see how it looks in any font.
+3. **Download Images:** Once satisfied, download your text as an image or graphic.
+4. **Variety:** Choose from thousands of fonts in every style imaginable.
+5. **Safe and Free:** Most fonts are free for personal use and can be used for projects without licensing worries.
+
+---
+
+## Step-by-Step Guide to Use Dafont.style Without Installation
+
+1. **Go to the Website:** Open your browser and visit [www.dafont.style](https://www.dafont.style).
+2. **Find Your Font:** Browse or search for a font that fits your project.
+3. **Open the Font Page:** Click on the font to view details and preview options.
+4. **Preview Your Text:** Type your custom text in the preview box. You can adjust size, color, and style as supported.
+5. **Download the Image:** Once your preview looks perfect, download the generated image or screenshot. No installation needed.
+
+---
+
+## Frequently Asked Questions (FAQ)
+
+**Q: Can I use these fonts for commercial projects?**  
+A: Most fonts on Dafont.style are **free for personal use only**. Some are available for commercial use, but always check the font license before using it commercially.
+
+**Q: How many fonts are available?**  
+A: Over **10,000 fonts** in categories like handwritten, modern, decorative, retro, script, sans-serif, and serif.
+
+**Q: Is it safe to use Dafont.style?**  
+A: Yes. The website itself is safe and free to use. Always download fonts from reputable sources to avoid malicious files.
+
+**Q: Can I customize the font text before downloading?**  
+A: Yes. You can type your text in the preview box, adjust size, style, and even color depending on the font options.
+
+**Q: Why has Dafont.style become so popular?**  
+A: Its combination of **ease of use, variety, instant preview, and mostly free fonts** has made it extremely popular with designers, content creators, and casual users alike.
+
+---
+
+## Why Dafont.style is Perfect for Beginners and Professionals
+
+- **Beginners:** Easy to use, no installation needed, instant results.  
+- **Professionals:** Quick previews, thousands of options for design inspiration.  
+- **Students:** Perfect for school projects, presentations, and social media graphics.  
+- **Social Media Creators:** Generate images with custom fonts for Instagram, TikTok, or YouTube.  
+
+---
+
+## How to Get the Most Out of Dafont.style
+
+- Use the **search and filter options** to quickly find the style you need.  
+- Preview your text with different sizes and styles to compare fonts.  
+- Download images for social media posts, presentations, or graphics.  
+- Bookmark your favorite fonts for easy access later.  
+
+---
+
+## Summary
+
+Dafont.style is a must-visit platform for anyone who loves typography. With **over 10,000 fonts**, mostly free for personal use, and the ability to **use fonts without installing them**, it makes designing text-based graphics fast, easy, and fun. Whether you are a beginner, a student, a professional designer, or a content creator, Dafont.style has something for you.
+`;
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I use these fonts for commercial projects?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most fonts on Dafont.style are free for personal use only. Some are available for commercial use, but always check the font license before using it commercially."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many fonts are available?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Over 10,000 fonts in categories like handwritten, modern, decorative, retro, script, sans-serif, and serif."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is it safe to use Dafont.style?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The website itself is safe and free to use. Always download fonts from reputable sources to avoid malicious files."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I customize the font text before downloading?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. You can type your text in the preview box, adjust size, style, and even color depending on the font options."
+      }
+    }
+  ]
+};
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lecture: Using Fonts Without Installation</title>
+    <meta name="description" content="Learn how to use over 10,000 fonts from Dafont.style without installing them. Step-by-step guide, FAQ, and tips for designers and students." />
+    <script type="application/ld+json">
+      {JSON.stringify(faqSchema)}
+    </script>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.7;
+        max-width: 900px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+        background-color: #f9f9f9;
+        color: #333;
+      }
+      h1, h2, h3 {
+        color: #2c3e50;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      }
+      ol, ul {
+        margin-left: 1.5rem;
+        margin-bottom: 1rem;
+      }
+      a {
+        color: #2980b9;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      blockquote {
+        margin: 1rem 0;
+        padding: 1rem;
+        background: #e9ecef;
+        border-left: 5px solid #2980b9;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Lecture: Using Fonts Without Installation</h1>
+
+    <!-- Lecture Image -->
+    <img src="https://scontent-sin6-2.xx.fbcdn.net/v/t39.30808-6/616797105_122191446068378169_4980191989566043097_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=xo9rNN2C-dIQ7kNvwFAX0Eu&_nc_oc=AdkKUk5ev7W7m6mE7JZyp_U9Jbgaxm45fPwOpyamkx3ECB7zt90sbth-HMtpSRAQrFutgHFhuk8BdsfSpFQwWSm6&_nc_zt=23&_nc_ht=scontent-sin6-2.xx&_nc_gid=znKGTUVoXA4HstbWcyjVbA&oh=00_Afo48s_JxcUesj_6Vy9NFc39m1J1fnvhm57yc0Iw1s01Lg&oe=696C78A3" alt="Fonts Lecture"/>
+
+    <!-- Lecture Content -->
+    <Markdown content={explainer} />
+  </body>
+</html>
